@@ -16,7 +16,6 @@ try {
     
     // Switch to the newly created or existing database
     $pdo->exec("USE `$database`");
-    echo true;
 } catch (PDOException $e) {
     echo false;
     // Handle error (e.g., connection failure)

@@ -6,7 +6,9 @@ require_once 'db_connection.php';
             id INT(11) AUTO_INCREMENT PRIMARY KEY,
             phone_number VARCHAR(15) NOT NULL UNIQUE,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-        )
+        );
+        ALTER TABLE users
+		ADD COLUMN name VARCHAR(255) NOT NULL AFTER phone_number;
     ";
     $pdo->exec($create_users_table);
 
