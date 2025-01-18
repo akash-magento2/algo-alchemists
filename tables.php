@@ -22,4 +22,16 @@ require_once 'db_connection.php';
         )
     ";
     $pdo->exec($create_otp_requests_table);
+
+    // Create tracker table
+    $create_useractivity_table = "
+    CREATE TABLE user_activities (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        user_id INT NOT NULL,
+        activity_date DATE NOT NULL,
+        activity_name VARCHAR(255) NOT NULL,
+        status ENUM('completed', 'skipped') NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )";
+    $pdo->exec($create_useractivity_table);
 ?>
