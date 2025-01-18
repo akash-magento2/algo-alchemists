@@ -12,31 +12,49 @@
       <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Algo Therapists</span></h2>
-            <p class="animate__animated animate__fadeInUp">Explore our Gen AI-powered therapists, take mental health questionnaires, set monthly goals, receive ergonomics reminders, and practice mindfulness—all in one place. Prioritize your health today!</p>
-            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-          </div>
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Algo Therapists</span></h2>
+          <p class="animate__animated animate__fadeInUp">
+            Explore our Gen AI-powered therapists, take mental health questionnaires, set monthly goals, receive ergonomics reminders, and practice mindfulness\u2014all in one place. Prioritize your health today!
+          </p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
+      </div>
 
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-          </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Track Your Goals with Ease</h2>
+          <p class="animate__animated animate__fadeInUp">
+            Set and monitor your monthly goals effortlessly. Use our tools to log daily activities and ensure you stay on track towards achieving a balanced and productive lifestyle.
+          </p>
+          <a href="#features" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
         </div>
+      </div>
 
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-          </div>
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Build Healthy Habits</h2>
+          <p class="animate__animated animate__fadeInUp">
+            Visualize your progress with our habit tracker. Stay consistent and improve your wellbeing with intuitive calendar views and gentle reminders to maintain healthy routines.
+          </p>
+          <a href="#habit-tracker" class="btn-get-started animate__animated animate__fadeInUp scrollto">Discover More</a>
         </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Relax with Mindfulness Videos</h2>
+          <p class="animate__animated animate__fadeInUp">
+            Access our curated library of mindfulness and relaxation videos. Rejuvenate your mind and reduce stress with guided sessions tailored to your needs.
+          </p>
+          <a href="#mindfulness" class="btn-get-started animate__animated animate__fadeInUp scrollto">Start Now</a>
+        </div>
+      </div>
+
 
         <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -66,40 +84,33 @@
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
-
+      <section id="about" class="about section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
-        <p>Who we are</p>
+        <p>Who We Are</p>
       </div><!-- End Section Title -->
-
       <div class="container">
-
         <div class="row gy-4">
-
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              At Algo Therapists, we are committed to revolutionizing workplace wellbeing. Our platform seamlessly integrates mental health support, physical wellness tracking, and habit-building tools into a single user-friendly solution.
             </p>
             <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Gen-AI powered virtual therapists for mental health support.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Customizable tools to set and track your goals with ease.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Ergonomic reminders to encourage healthy habits daily.</span></li>
             </ul>
           </div>
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <p>
+              Whether it is improving your posture, maintaining mindfulness, or hitting your monthly milestones, we are here to help you achieve a balanced and productive lifestyle. Join us and prioritize your wellbeing at work and beyond.
+            </p>
             <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
-
         </div>
-
       </div>
-
-    </section><!-- /About Section -->
+      </section><!-- /About Section -->
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -491,133 +502,6 @@
       </div>
 
     </section><!-- /Portfolio Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>What they are saying about us</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 10
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
 
     <!-- Reminder Section -->
     <section id="pricing" class="pricing section">
