@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Selecao Bootstrap Template</title>
+  <title>Algo Alchemists</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -51,8 +51,8 @@
         <!-- Slide 1 -->
         <div class="carousel-item active">
           <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Selecao</span></h2>
-            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Algo Therapists</span></h2>
+            <p class="animate__animated animate__fadeInUp">Explore our Gen AI-powered therapists, take mental health questionnaires, set monthly goals, receive ergonomics reminders, and practice mindfulness—all in one place. Prioritize your health today!</p>
             <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
           </div>
         </div>
@@ -396,8 +396,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>What we've done</p>
+        <h2>Be Here Now</h2>
+        <p>Mindfulness</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -406,22 +406,26 @@
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
+            <li data-filter=".filter-app">Meditation</li>
+            <li data-filter=".filter-product">Breathing</li>
+            <li data-filter=".filter-branding">Movement</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+            <img src="https://img.youtube.com/vi/2FnFXq6Z13Q/maxresdefault.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Body Scan</h4>
+                <p>15 Minutes Guided Body Scan</p>
+                <a href="https://www.youtube.com/embed/2FnFXq6Z13Q" title="Play Video" data-gallery="portfolio-gallery-app" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=2FnFXq6Z13Q&ab_channel=Dr.AdamRosen-KneePain%26ArthritisInformation" title="More Details" class="details-link" target="_blank">
+                <i class="bi bi-link-45deg"></i>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
@@ -444,14 +448,18 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="https://img.youtube.com/vi/B_SiNDBr3L8/maxresdefault.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Observing Thoughts</h4>
+                <p>15 Minutes Guided Meditation for Aware of Thoughts</p>
+                <a href="https://www.youtube.com/embed/B_SiNDBr3L8" title="Play Video" data-gallery="portfolio-gallery-app" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=B_SiNDBr3L8&ab_channel=MindfulPeace" title="More Details" class="details-link" target="_blank">
+                <i class="bi bi-link-45deg"></i>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
