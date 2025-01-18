@@ -2,6 +2,9 @@
 require_once('db_connection.php');
 require_once('header.php');
 require_once('menu.php');
+
+//session_start();
+
 // Generate CSRF token if it doesn't exist
 if (!isset($_SESSION['csrf_token'])) {
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
@@ -99,7 +102,7 @@ if ($stmt) {
 
 <section>
     <div class="container mt-5">
-        <h1 class="mb-4">Goal Tracker with Calendar</h1>
+        <h1 class="mb-4">Monthly Goal Tracker</h1>
 
         <!-- Form to Add or Edit Activities -->
         <form method="POST" class="mb-4" id="activitiesForm">
@@ -154,10 +157,52 @@ if ($stmt) {
     </div>
 </section>
 <style>
-    .header {
+    :root {
+        --background-color: #ffffff;
+        --default-color: #444444;
+        --heading-color: #2a2c39;
+        --accent-color: #ef6603;
+        --surface-color: #ffffff;
+        --contrast-color: #ffffff;
+    }
+ 
+    body {
+        background-color: var(--background-color);
+        color: var(--default-color);
+    }
+ 
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--heading-color);
+    }
+ 
+    .btn-primary {
+        background-color: var(--accent-color);
+        border-color: var(--accent-color);
+    }
+ 
+    .btn-primary:hover {
+        background-color: #d45500;
+        border-color: #d45500;
+    }
+ 
+    .form-control, .form-select {
+        background-color: var(--surface-color);
+    }
+ 
+    .form-label {
+        color: var(--default-color);
+    }
+ 
+    #calendar {
+        background-color: var(--surface-color);
+        padding: 20px;
+        border-radius: 8px;
+    }
+    .header{
         background: #000;
     }
 </style>
+ 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
 <script>
@@ -169,7 +214,7 @@ if ($stmt) {
             events: <?= json_encode($calendarData); ?>
         });
         calendar.render();
-
+ 
         // Add more activity rows
         document.getElementById('addActivity').addEventListener('click', function () {
             const activityRow = document.querySelector('.activity-row').cloneNode(true);
@@ -182,7 +227,7 @@ if ($stmt) {
         });
     });
 </script>
-
+ 
 <?php
 require_once('footer.php');
 // Close the PDO connection

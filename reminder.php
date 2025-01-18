@@ -19,11 +19,11 @@
 <body>
 
 <div class="container mt-5">
-  <h2>Goal List</h2>
+  <h2>Daily Reminder</h2>
   <table class="table">
     <thead>
       <tr>
-        <th>Goal</th>
+        <th>Reminder</th>
         <th>Status</th>
         <th>Frequency</th>
         <th>Action</th>

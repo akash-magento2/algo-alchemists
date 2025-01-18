@@ -8,7 +8,7 @@ require_once '../db_connection.php';
 
 // Check if the user is already logged in, if so, redirect to dashboard or another page
 if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] === true) {
-    header("Location: ../index.php");  // Redirect to the dashboard if logged in
+    header("Location:../index.php");  // Redirect to the dashboard if logged in
     exit();
 }
 
@@ -37,7 +37,7 @@ if (isset($_POST['send_otp'])) {
         $stmt->execute([$phone_number, $otp]);
 
         // For now, simulate OTP sending
-        echo "OTP sent to your phone number (simulated).";
+        //echo "OTP sent to your phone number (simulated).";
 
         // Redirect to OTP verification form
         header("Location: /algo-alchemists/forms/otpLogin.php?verify=true");

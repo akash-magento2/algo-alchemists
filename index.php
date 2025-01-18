@@ -16,7 +16,7 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Algo Therapists</span></h2>
           <p class="animate__animated animate__fadeInUp">
-            Explore our Gen AI-powered therapists, take mental health questionnaires, set monthly goals, receive ergonomics reminders, and practice mindfulness\u2014all in one place. Prioritize your health today!
+            Explore our Gen AI-powered therapists, take mental health questionnaires, set monthly goals, receive ergonomics reminders, and practice mindfulness - all in one place. Prioritize your health today!
           </p>
           <a href="therapistai/therapistai.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Talk to Algo Therapist</a>
         </div>
@@ -29,7 +29,7 @@
           <p class="animate__animated animate__fadeInUp">
             Set and monitor your monthly goals effortlessly. Use our tools to log daily activities and ensure you stay on track towards achieving a balanced and productive lifestyle.
           </p>
-          <a href="#features" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+          <a href="reminder.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Track Goals</a>
         </div>
       </div>
 
@@ -40,7 +40,7 @@
           <p class="animate__animated animate__fadeInUp">
             Visualize your progress with our habit tracker. Stay consistent and improve your wellbeing with intuitive calendar views and gentle reminders to maintain healthy routines.
           </p>
-          <a href="reminder.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Track Habits</a>
+          <a href="activity.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Track Habits</a>
         </div>
       </div>
 
