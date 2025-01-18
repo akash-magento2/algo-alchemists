@@ -25,7 +25,7 @@
       <!-- Bell Icon with Notification Popup -->
       <div class="notifications">
         <a href="#" id="bellIcon" data-bs-toggle="modal" data-bs-target="#notificationModal">
-          <i class="bi bi-bell" style="font-size: 24px; color: #555;"></i>
+          <i class="bi bi-bell" style="font-size: 24px; color: #fff;"></i>
         </a>
       </div>
     </div>
