@@ -29,7 +29,7 @@
           <p class="animate__animated animate__fadeInUp">
             Set and monitor your monthly goals effortlessly. Use our tools to log daily activities and ensure you stay on track towards achieving a balanced and productive lifestyle.
           </p>
-          <a href="#features" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+          <a href="reminder.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Track Goals</a>
         </div>
       </div>
 
@@ -40,7 +40,7 @@
           <p class="animate__animated animate__fadeInUp">
             Visualize your progress with our habit tracker. Stay consistent and improve your wellbeing with intuitive calendar views and gentle reminders to maintain healthy routines.
           </p>
-          <a href="reminder.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Track Habits</a>
+          <a href="activity.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Track Habits</a>
         </div>
       </div>
 
