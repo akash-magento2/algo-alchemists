@@ -391,14 +391,19 @@
             <!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="https://img.youtube.com/vi/DbDoBzGY3vo/hqdefault.jpg" class="img-fluid" alt="Take a Deep Breath Thumbnail">
               <div class="portfolio-info">
                 <h4>Product 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="https://www.youtube.com/embed/DbDoBzGY3vo" title="Play Video" data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=DbDoBzGY3vo&ab_channel=TAKEADEEPBREATH" title="More Details" class="details-link" target="_blank">
+                  <i class="bi bi-link-45deg"></i>
+                </a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
@@ -445,14 +450,19 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="https://img.youtube.com/vi/-d_AA9H4z9U/hqdefault.jpg" class="img-fluid" alt="Loving Kindness Thumbnail">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Loving Kindness</h4>
+                <p>Guided Meditation to Develop Compassion</p>
+                <a href="https://www.youtube.com/embed/-d_AA9H4z9U" title="Play Video" data-gallery="portfolio-gallery-app" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=-d_AA9H4z9U&ab_channel=WiseMindBody" title="More Details" class="details-link" target="_blank">
+                  <i class="bi bi-link-45deg"></i>
+                </a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
@@ -609,13 +619,13 @@
 
     </section><!-- /Testimonials Section -->
 
-    <!-- Pricing Section -->
+    <!-- Reminder Section -->
     <section id="pricing" class="pricing section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>What they are saying about us</p>
+        <h2>Stay Aligned, Stay Alert</h2>
+        <p>Reminders</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -624,69 +634,50 @@
 
           <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="pricing-item">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
+              <h3>Hydration Reminder</h3>
+              <!-- <h4><sup>$</sup>0<span> / month</span></h4> -->
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>Proper hydration boosts your energy levels and overall well-being. Set a reminder to drink water each hour and stay refreshed. Keeping hydrated helps with focus and sustained vitality. Your body will truly appreciate this healthy habit!</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="#" class="btn-buy">Set Hydration Reminder</a>
               </div>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
+            <div class="pricing-item">
+              <h3>Posture Check Reminder</h3>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>Good posture supports your spine and enhances your confidence. Set a reminder to check your stance each hour. Maintaining good posture aids comfort and productivity. Your body will truly appreciate this habit!</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="#" class="btn-buy">Set Posture Check Reminder</a>
               </div>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="pricing-item">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
+              <h3>Sleep Reminder</h3>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
+                <li>Quality sleep boosts your mood and overall health. Set a reminder to wind down at night and prepare for rest. Prioritizing sleep improves focus and energy levels. Your body will truly appreciate this change!</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="#" class="btn-buy">Set Sleep Reminder</a>
               </div>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="pricing-item">
-              <span class="advanced">Advanced</span>
-              <h3>Ultimate</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
+              <!-- <span class="advanced">Advanced</span> -->
+              <h3>Exercise Reminder</h3>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
+                <li>Regular exercise boosts your mood and improves overall health. Set a reminder to move each hour and stay active throughout the day. Prioritizing activity enhances energy and increases focus. Your body will truly appreciate this habit!</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="#" class="btn-buy">Set Exercise Reminder</a>
               </div>
             </div>
           </div><!-- End Pricing Item -->
@@ -768,16 +759,16 @@
       </div>
     </section><!-- /Faq Section -->
 
-    <!-- Team Section -->
+    <!-- Team Section 
     <section id="team" class="team section">
 
-      <!-- Section Title -->
+
       <div class="container section-title" data-aos="fade-up">
         <h2>Team</h2>
         <p>Our Hardworking Team</p>
-      </div><!-- End Section Title -->
+      </div> End Section Title -->
 
-      <div class="container">
+      <!-- <div class="container">
 
         <div class="row gy-4">
 
@@ -793,13 +784,13 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
+                <h4>Yashika</h4>
                 <span>Chief Executive Officer</span>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div> End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <!--<div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
@@ -815,9 +806,9 @@
                 <span>Product Manager</span>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div> End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+          <!--<div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
@@ -833,9 +824,9 @@
                 <span>CTO</span>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div> End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+          <!--<div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
@@ -851,13 +842,13 @@
                 <span>Accountant</span>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div> End Team Member 
 
         </div>
 
       </div>
 
-    </section><!-- /Team Section -->
+    </section> /Team Section -->
 
     <!-- Recent Posts Section -->
     <section id="recent-posts" class="recent-posts section">
