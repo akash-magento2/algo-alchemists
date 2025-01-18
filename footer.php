@@ -66,10 +66,6 @@
     text-decoration: none;
     transition: color 0.3s;
   }
-
-  a:hover {
-    color: #d45602;
-  }
 </style>
 
 <script>
