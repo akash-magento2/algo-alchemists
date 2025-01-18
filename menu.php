@@ -24,6 +24,72 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
+      <!-- Bell Icon with Notification Popup -->
+      <div class="notifications">
+        <a href="#" id="bellIcon" data-bs-toggle="modal" data-bs-target="#notificationModal">
+          <i class="bi bi-bell" style="font-size: 24px; color: #555;"></i>
+        </a>
+      </div>
     </div>
   </header>
+
+  <!-- Modal for Notifications -->
+<div class="modal fade" id="notificationModal" tabindex="-1" aria-labelledby="notificationModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="notificationModalLabel">Notifications</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Notifications will be dynamically inserted here -->
+        <ul id="notificationList">
+          <!-- Example of static content -->
+          <li>You have 3 unread notifications</li>
+          <li>New comment on your post</li>
+          <li>Your profile was updated</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+<!-- JavaScript to dynamically populate modal with notification content -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const notificationData = [
+      'You have 3 unread notifications',
+      'New comment on your post',
+      'Your profile was updated'
+    ];
+
+    // Find the modal's list
+    const notificationList = document.getElementById('notificationList');
+
+    // Function to populate the modal with dynamic content
+    function populateNotifications() {
+      // Clear existing notifications
+      notificationList.innerHTML = '';
+
+      // Add new notifications dynamically
+      notificationData.forEach(function(notification) {
+        const listItem = document.createElement('li');
+        listItem.textContent = notification;
+        notificationList.appendChild(listItem);
+      });
+    }
+
+    // Event listener for bell icon click
+    const bellIcon = document.getElementById('bellIcon');
+    bellIcon.addEventListener('click', function () {
+      populateNotifications(); // Populate notifications when the bell icon is clicked
+    });
+  });
+</script>
