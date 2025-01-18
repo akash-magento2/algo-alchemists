@@ -121,7 +121,11 @@ if (isset($_POST['verify_otp'])) {
         <div class="form-container">
             <form method="post" action="">
                 <div class="form-group">
-                    <label for="phone_number">Enter your phone number</label>
+                    <label for="name">Enter your Name</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone_number">Enter your Phone Number</label>
                     <input type="text" name="phone_number" id="phone_number" class="form-control" placeholder="Enter phone number" required>
                 </div>
                 <button type="submit" name="send_otp" class="btn btn-primary btn-block">Send OTP</button>
@@ -135,10 +139,6 @@ if (isset($_POST['verify_otp'])) {
                     <label for="otp">Enter OTP</label>
                     <input type="number" name="otp" id="otp" class="form-control" placeholder="Enter OTP" required>
                 </div>
-                <div class="form-group">
-                    <label for="name">Enter your name</label>
-                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
-                </div>
                 <button type="submit" name="verify_otp" class="btn btn-success btn-block">Verify OTP</button>
             </form>
         </div>
@@ -148,8 +148,79 @@ if (isset($_POST['verify_otp'])) {
 </section>
 </div>
 <style type="text/css">
+    /* Header styles */
     .header {
-        background: #000;
+        background: #1d3557; /* Dark blue background */
+    }
+
+    /* Container for the OTP Login form */
+    .main.otplogin {
+        background-color: #f1f1f1; /* Light background color for the page */
+        padding: 50px 0;
+    }
+
+    /* Form Container */
+    .form-container {
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        border-radius: 8px;
+    }
+
+    /* Input fields */
+    .form-control {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 12px;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    /* Labels */
+    .form-group label {
+        font-weight: bold;
+        color: #333;
+    }
+
+    /* Error message style */
+    .error-message {
+        color: red;
+        margin-bottom: 20px;
+    }
+
+    /* Button styling */
+    .btn {
+        padding: 12px;
+        border-radius: 4px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .btn-primary {
+        background-color: #1d3557; /* Dark blue */
+        color: #fff;
+        border: none;
+    }
+
+    .btn-primary:hover {
+        background-color: #457b9d; /* Lighter blue */
+    }
+
+    .btn-success {
+        background-color: #2a9d8f; /* Green */
+        color: #fff;
+        border: none;
+    }
+
+    .btn-success:hover {
+        background-color: #264d4f; /* Darker green */
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .form-container {
+            padding: 20px;
+        }
     }
 </style>
 <?php require_once '../footer.php'; ?>
