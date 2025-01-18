@@ -1,7 +1,7 @@
 <?php
 // Include the database connection file
-require_once'../header.php';
-require_once'../menu.php'; 
+require_once '../header.php';
+require_once '../menu.php'; 
 require_once '../db_connection.php';
 // Start session
 //session_start();
@@ -152,4 +152,4 @@ if (isset($_POST['verify_otp'])) {
         background: #000;
     }
 </style>
-<?php require_once'../footer.php'; ?>
+<?php require_once '../footer.php'; ?>
