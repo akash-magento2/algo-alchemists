@@ -22,12 +22,14 @@ $name = '';
 if (isset($_POST['send_otp'])) {
     // Get phone number from the form
     $phone_number = $_POST['phone_number'];
+    $name = $_POST['name'];
 
     // Generate a 6-digit OTP
     $otp = rand(100000, 999999);
 
     // Store phone number in session for future use
     $_SESSION['phone_number'] = $phone_number;
+    $_SESSION['name'] = $name;
 
     // Insert OTP into the database (we'll store the OTP temporarily in the otp_requests table)
     try {
@@ -53,6 +55,7 @@ if (isset($_POST['verify_otp'])) {
     // Retrieve the phone number from session
     if (isset($_SESSION['phone_number'])) {
         $phone_number = $_SESSION['phone_number'];
+        $name = $_SESSION['name'];
 
         // Verify OTP from the database
         try {
@@ -71,8 +74,8 @@ if (isset($_POST['verify_otp'])) {
                 if (!$user) {
                     // User does not exist, insert into users table
                     // Request user name and store it in the 'name' field
-                    if (isset($_POST['name']) && !empty($_POST['name'])) {
-                        $name = $_POST['name'];
+                    if (isset($_SESSION['name']) && !empty($_SESSION['name'])) {
+                        $name = $name;
                     } else {
                         // If no name is provided, you can display an error or set a default value.
                         $error_message = "Please enter your name.";
