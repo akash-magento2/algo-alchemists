@@ -64,32 +64,41 @@
 <!-- JavaScript to dynamically populate modal with notification content -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const notificationData = [
-      'You have 3 unread notifications',
-      'New comment on your post',
-      'Your profile was updated'
-    ];
-
-    // Find the modal's list
     const notificationList = document.getElementById('notificationList');
 
-    // Function to populate the modal with dynamic content
-    function populateNotifications() {
-      // Clear existing notifications
-      notificationList.innerHTML = '';
+    // Function to fetch goals from the server
+    async function fetchGoals() {
+      try {
+        const response = await fetch('fetch_goals.php'); // Replace with your actual endpoint
+        const data = await response.json();
 
-      // Add new notifications dynamically
-      notificationData.forEach(function(notification) {
-        const listItem = document.createElement('li');
-        listItem.textContent = notification;
-        notificationList.appendChild(listItem);
-      });
+        if (data.status === 'success') {
+          // Count the total number of goals
+         const totalGoals = data.goals.length;
+
+          // Clear existing notifications
+          notificationList.innerHTML = '<h3>You have '+totalGoals+' unread notifications</h3>';
+          
+          // Populate the notification list with fetched goals
+          data.goals.forEach(function(goal) {
+            if(goal.status == 1){
+              const listItem = document.createElement('li');
+              listItem.textContent = goal.goal_name; // Adjust based on your DB column
+              notificationList.appendChild(listItem);
+            }
+          });
+        } else {
+          console.error('Failed to fetch goals');
+        }
+      } catch (error) {
+        console.error('Error fetching goals:', error);
+      }
     }
 
     // Event listener for bell icon click
     const bellIcon = document.getElementById('bellIcon');
     bellIcon.addEventListener('click', function () {
-      populateNotifications(); // Populate notifications when the bell icon is clicked
+      fetchGoals(); // Fetch and populate goals when the bell icon is clicked
     });
   });
 </script>
