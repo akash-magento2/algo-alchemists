@@ -687,99 +687,99 @@
 
     <!-- Recent Posts Section -->
     <section id="recent-posts" class="recent-posts section">
-
+ 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Recent Posts</h2>
         <p>Recent Blog Posts<br></p>
       </div><!-- End Section Title -->
-
+ 
       <div class="container">
-
+ 
         <div class="row gy-4">
-
+ 
           <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <article>
-
+ 
               <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/blog/work_life_balance__1_.webp" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category">Politics</p>
-
+ 
+              <p class="post-category">Self Help</p>
+ 
               <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
+                <a href="https://thehappinessindex.com/blog/importance-work-life-balance/">Importance of Work-Life Balance</a>
               </h2>
-
+ 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="assets/img/blog/Joe.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
+                  <p class="post-author">Joe Wedgwood</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
+                    <time datetime="2022-01-01">Sept 21, 2022</time>
                   </p>
                 </div>
               </div>
-
+ 
             </article>
           </div><!-- End post list item -->
-
+ 
           <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <article>
-
+ 
               <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+                <img src="assets/img/blog/abc.webp" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category">Sports</p>
-
+ 
+              <p class="post-category">Ergonomics</p>
+ 
               <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                <a href="blog-details.html">10 Impressive Benefits of Ergonomics in the Workplace</a>
               </h2>
-
+ 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="assets/img/blog/images.jpeg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Allisa Mayer</p>
+                  <p class="post-author">Nina Neuschuetz</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
+                    <time datetime="2022-01-01">Apr 5, 2024</time>
                   </p>
                 </div>
               </div>
-
+ 
             </article>
           </div><!-- End post list item -->
-
+ 
           <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <article>
-
+ 
               <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+                <img src="assets/img/blog/img.jpg" alt="" class="img-fluid">
               </div>
-
-              <p class="post-category">Entertainment</p>
-
+ 
+              <p class="post-category">Meditation</p>
+ 
               <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
+                <a href="https://www.healthline.com/nutrition/12-benefits-of-meditation">How Meditation Benefits Your Mind and Body</a>
               </h2>
-
+ 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="assets/img/blog/Joslyn.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
+                  <p class="post-author">Joslyn Jelinek</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
+                    <time datetime="2022-01-01">Aug 15, 2024</time>
                   </p>
                 </div>
               </div>
-
+ 
             </article>
           </div><!-- End post list item -->
-
+ 
         </div><!-- End recent posts list -->
-
+ 
       </div>
-
+ 
     </section><!-- /Recent Posts Section -->
 
     <!-- Contact Section -->
