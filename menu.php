@@ -77,7 +77,7 @@
          const totalGoals = data.goals.length;
 
           // Clear existing notifications
-          notificationList.innerHTML = '<h3>You have '+totalGoals+' unread notifications</h3>';
+          notificationList.innerHTML = '<h3>You have few notifications</h3>';
           
           // Populate the notification list with fetched goals
           data.goals.forEach(function(goal) {
