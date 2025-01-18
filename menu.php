@@ -77,13 +77,13 @@
          const totalGoals = data.goals.length;
 
           // Clear existing notifications
-          notificationList.innerHTML = '<h3>You have few notifications</h3>';
+          //notificationList.innerHTML = '<h3>You have few notifications</h3>';
           
           // Populate the notification list with fetched goals
           data.goals.forEach(function(goal) {
             if(goal.status == 1){
               const listItem = document.createElement('li');
-              listItem.textContent = goal.goal_name; // Adjust based on your DB column
+              listItem.textContent = 'Reminder from Goal:"'. goal.goal_name.'"'; // Adjust based on your DB column
               notificationList.appendChild(listItem);
             }
           });
