@@ -9,18 +9,16 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
+          <li><a href="#features">Our Offerings</a></li>
+          <li><a href="#portfolio">Mindfulness</a></li>
+          <li><a href="#pricing">Reminders</a></li>
           <?php if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] === true) { ?>
             <li><a href="/algo-alchemists/logout.php"><?php echo $_SESSION['name']; ?></a></li>
           <?php } else {?>
-            <li><a href="/algo-alchemists/forms/otpLogin.php">Login</a></li>
+            <li><a href="/algo-alchemists/forms/otpLogin.php" class="active">Login</a></li>
           <?php } ?>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -77,13 +75,13 @@
          const totalGoals = data.goals.length;
 
           // Clear existing notifications
-          //notificationList.innerHTML = '<h3>You have few notifications</h3>';
+          notificationList.innerHTML = '<h4>You have a few notifications</h4>';
           
           // Populate the notification list with fetched goals
           data.goals.forEach(function(goal) {
             if(goal.status == 1){
               const listItem = document.createElement('li');
-              listItem.textContent = 'Reminder from Goal:"'. goal.goal_name.'"'; // Adjust based on your DB column
+              listItem.textContent = goal.goal_name; // Adjust based on your DB column
               notificationList.appendChild(listItem);
             }
           });
