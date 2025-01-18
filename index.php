@@ -16,7 +16,7 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Algo Therapists</span></h2>
           <p class="animate__animated animate__fadeInUp">
-            Explore our Gen AI-powered therapists, take mental health questionnaires, set monthly goals, receive ergonomics reminders, and practice mindfulness\u2014all in one place. Prioritize your health today!
+            Explore our Gen AI-powered therapists, take mental health questionnaires, set monthly goals, receive ergonomics reminders, and practice mindfulness - all in one place. Prioritize your health today!
           </p>
           <a href="therapistai/therapistai.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Talk to Algo Therapist</a>
         </div>
