@@ -92,8 +92,8 @@
             <td><input type="text" class="form-control" placeholder="Enter goal name" id="goalName${goalCount}" value="${goal.goal_name}"></td>
             <td>
               <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="status${goalCount}" ${goal.status === 1 ? 'checked' : ''}>
-                <label class="form-check-label" for="status${goalCount}">${goal.status === 1 ? 'On' : 'Off'}</label>
+                <input class="form-check-input" type="checkbox" id="status${goalCount}" ${goal.status == 1 ? 'checked' : ''}>
+                <label class="form-check-label" for="status${goalCount}">${goal.status == 1 ? 'On' : 'Off'}</label>
               </div>
             </td>
             <td>
