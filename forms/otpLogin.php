@@ -1,9 +1,10 @@
 <?php
 // Include the database connection file
+require_once'../header.php';
+require_once'../menu.php'; 
 require_once '../db_connection.php';
-
 // Start session
-session_start();
+//session_start();
 
 // Check if the user is already logged in, if so, redirect to dashboard or another page
 if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] === true) {
@@ -104,48 +105,10 @@ if (isset($_POST['verify_otp'])) {
         $error_message = "Phone number is missing from session.";
     }
 }
-
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login with OTP</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h2 {
-            text-align: center;
-        }
-        .form-container {
-            max-width: 400px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-        }
-        input[type="text"], input[type="number"], input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        .error-message {
-            color: red;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-
+<div class="main otplogin">
+<section>
+<div class="container">
     <h2>Login with OTP</h2>
 
     <!-- Error message display -->
@@ -157,23 +120,36 @@ if (isset($_POST['verify_otp'])) {
         <!-- Step 1: Phone number input form -->
         <div class="form-container">
             <form method="post" action="">
-                <label for="phone_number">Enter your phone number:</label>
-                <input type="text" name="phone_number" id="phone_number" placeholder="Enter phone number" required>
-                <input type="submit" name="send_otp" value="Send OTP">
+                <div class="form-group">
+                    <label for="phone_number">Enter your phone number</label>
+                    <input type="text" name="phone_number" id="phone_number" class="form-control" placeholder="Enter phone number" required>
+                </div>
+                <button type="submit" name="send_otp" class="btn btn-primary btn-block">Send OTP</button>
             </form>
         </div>
     <?php else: ?>
         <!-- Step 2: OTP input form (for OTP verification) -->
         <div class="form-container">
             <form method="post" action="">
-                <label for="otp">Enter OTP:</label>
-                <input type="number" name="otp" id="otp" placeholder="Enter OTP" required>
-                <label for="name">Enter your name:</label>
-                <input type="text" name="name" id="name" placeholder="Enter your name" required>
-                <input type="submit" name="verify_otp" value="Verify OTP">
+                <div class="form-group">
+                    <label for="otp">Enter OTP</label>
+                    <input type="number" name="otp" id="otp" class="form-control" placeholder="Enter OTP" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Enter your name</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+                </div>
+                <button type="submit" name="verify_otp" class="btn btn-success btn-block">Verify OTP</button>
             </form>
         </div>
     <?php endif; ?>
 
-</body>
-</html>
+</div>
+</section>
+</div>
+<style type="text/css">
+    .header {
+        background: #000;
+    }
+</style>
+<?php require_once'../footer.php'; ?>
