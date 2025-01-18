@@ -159,7 +159,7 @@
                 <a href="therapistai/therapistai.php" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-              <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
+              <img src="assets/img/ai.avif" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -180,7 +180,7 @@
                 <a href="reminder.php" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-              <img src="assets/img/working-2.jpg" alt="" class="img-fluid">
+              <img src="assets/img/goal.png" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -201,7 +201,7 @@
                 <a href="activity.php" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-              <img src="assets/img/working-3.jpg" alt="" class="img-fluid">
+              <img src="assets/img/habit.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
