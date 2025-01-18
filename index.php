@@ -18,7 +18,7 @@
           <p class="animate__animated animate__fadeInUp">
             Explore our Gen AI-powered therapists, take mental health questionnaires, set monthly goals, receive ergonomics reminders, and practice mindfulness\u2014all in one place. Prioritize your health today!
           </p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          <a href="therapistai/therapistai.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Talk to Algo Therapist</a>
         </div>
       </div>
 
@@ -40,7 +40,7 @@
           <p class="animate__animated animate__fadeInUp">
             Visualize your progress with our habit tracker. Stay consistent and improve your wellbeing with intuitive calendar views and gentle reminders to maintain healthy routines.
           </p>
-          <a href="#habit-tracker" class="btn-get-started animate__animated animate__fadeInUp scrollto">Discover More</a>
+          <a href="reminder.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Track Habits</a>
         </div>
       </div>
 
@@ -106,7 +106,7 @@
             <p>
               Whether it is improving your posture, maintaining mindfulness, or hitting your monthly milestones, we are here to help you achieve a balanced and productive lifestyle. Join us and prioritize your wellbeing at work and beyond.
             </p>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="Questionnaire.php" class="read-more"><span>Take a Mental Wellbeing Quiz</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -156,6 +156,7 @@
                   <li><i class="bi bi-check2-all"></i> <span>Personalized coping mechanisms and stress management techniques.</span></li>
                   <li><i class="bi bi-check2-all"></i> <span>Encourages self-reflection and mindfulness practices.</span></li>
                 </ul>
+                <a href="therapistai/therapistai.php" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
               <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
@@ -176,6 +177,7 @@
                   <li><i class="bi bi-check2-all"></i> <span>Monitor progress with real-time insights.</span></li>
                   <li><i class="bi bi-check2-all"></i> <span>Boost productivity and stay focused on priorities.</span></li>
                 </ul>
+                <a href="reminder.php" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
               <img src="assets/img/working-2.jpg" alt="" class="img-fluid">
@@ -196,6 +198,7 @@
                   <li><i class="bi bi-check2-all"></i> <span>Customizable habits tailored to your lifestyle.</span></li>
                   <li><i class="bi bi-check2-all"></i> <span>Insights into habit patterns to keep you on track.</span></li>
                 </ul>
+                <a href="activity.php" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
               <img src="assets/img/working-3.jpg" alt="" class="img-fluid">
@@ -216,6 +219,7 @@
                   <li><i class="bi bi-check2-all"></i> <span>Encourages regular breaks to reduce fatigue.</span></li>
                   <li><i class="bi bi-check2-all"></i> <span>Supports balance between work and personal wellbeing.</span></li>
                 </ul>
+                <a href="reminder.php" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
               <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
@@ -243,7 +247,6 @@
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-app">Meditation</li>
             <li data-filter=".filter-product">Breathing</li>
-            <li data-filter=".filter-branding">Movement</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -345,7 +348,7 @@
                 <li>Proper hydration boosts your energy levels and overall well-being. Set a reminder to drink water each hour and stay refreshed. Keeping hydrated helps with focus and sustained vitality. Your body will truly appreciate this healthy habit!</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Set Hydration Reminder</a>
+                <a href="reminder.php" class="btn-buy">Set Hydration Reminder</a>
               </div>
             </div>
           </div><!-- End Pricing Item -->
@@ -357,7 +360,7 @@
                 <li>Good posture supports your spine and enhances your confidence. Set a reminder to check your stance each hour. Maintaining good posture aids comfort and productivity. Your body will truly appreciate this habit!</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Set Posture Check Reminder</a>
+                <a href="reminder.php" class="btn-buy">Set Posture Check Reminder</a>
               </div>
             </div>
           </div><!-- End Pricing Item -->
@@ -369,7 +372,7 @@
                 <li>Quality sleep boosts your mood and overall health. Set a reminder to wind down at night and prepare for rest. Prioritizing sleep improves focus and energy levels. Your body will truly appreciate this change!</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Set Sleep Reminder</a>
+                <a href="reminder.php" class="btn-buy">Set Sleep Reminder</a>
               </div>
             </div>
           </div><!-- End Pricing Item -->
@@ -382,7 +385,7 @@
                 <li>Regular exercise boosts your mood and improves overall health. Set a reminder to move each hour and stay active throughout the day. Prioritizing activity enhances energy and increases focus. Your body will truly appreciate this habit!</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Set Exercise Reminder</a>
+                <a href="reminder.php" class="btn-buy">Set Exercise Reminder</a>
               </div>
             </div>
           </div><!-- End Pricing Item -->
@@ -490,83 +493,7 @@
  
     </section><!-- /Recent Posts Section -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Contact Us</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
+    
 
   </main>
   <?php 
